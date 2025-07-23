@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": ">= 6.3.1"
+  },
+  "build": {
+    "production": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "env": {
+        "EAS_NO_VCS": "1"
+      }
+    }
+  },
+  "extra": {
+    "eas": {
+      "projectId": "ff5e3c8b-69ec-4d89-a111-4c773d7d53c9"
+    }
+  },
+  "expo": {
+    "android": {
+      "package": "com.n_sfd.wshapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff5e3c8b-69ec-4d89-a111-4c773d7d53c9"
+      }
+    }
+  }
+}
